@@ -14,6 +14,9 @@
 		D683975620C8F70C008F9CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D683975420C8F70C008F9CE6 /* LaunchScreen.storyboard */; };
 		D683976120C8F70C008F9CE6 /* HWUIPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683976020C8F70C008F9CE6 /* HWUIPageViewControllerTests.swift */; };
 		D683976C20C8F70C008F9CE6 /* HWUIPageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683976B20C8F70C008F9CE6 /* HWUIPageViewControllerUITests.swift */; };
+		D683977A20C8F7CF008F9CE6 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683977920C8F7CF008F9CE6 /* MyViewController.swift */; };
+		D683977C20C8F851008F9CE6 /* TelegramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683977B20C8F851008F9CE6 /* TelegramViewController.swift */; };
+		D683977E20C8F8B8008F9CE6 /* TelegramHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683977D20C8F8B8008F9CE6 /* TelegramHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D683976720C8F70C008F9CE6 /* HWUIPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWUIPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D683976B20C8F70C008F9CE6 /* HWUIPageViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWUIPageViewControllerUITests.swift; sourceTree = "<group>"; };
 		D683976D20C8F70C008F9CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D683977920C8F7CF008F9CE6 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		D683977B20C8F851008F9CE6 /* TelegramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramViewController.swift; sourceTree = "<group>"; };
+		D683977D20C8F8B8008F9CE6 /* TelegramHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				D683974B20C8F6FE008F9CE6 /* AppDelegate.swift */,
+				D683977920C8F7CF008F9CE6 /* MyViewController.swift */,
+				D683977B20C8F851008F9CE6 /* TelegramViewController.swift */,
+				D683977D20C8F8B8008F9CE6 /* TelegramHelper.swift */,
 				D683974D20C8F6FE008F9CE6 /* ViewController.swift */,
 				D683974F20C8F6FE008F9CE6 /* Main.storyboard */,
 				D683975220C8F70C008F9CE6 /* Assets.xcassets */,
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D683974E20C8F6FE008F9CE6 /* ViewController.swift in Sources */,
+				D683977A20C8F7CF008F9CE6 /* MyViewController.swift in Sources */,
+				D683977E20C8F8B8008F9CE6 /* TelegramHelper.swift in Sources */,
 				D683974C20C8F6FE008F9CE6 /* AppDelegate.swift in Sources */,
+				D683977C20C8F851008F9CE6 /* TelegramViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
